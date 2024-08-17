@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    background-color: #0891B2;
+    transform: skewY(-8deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 55vh;
+    width: 100vw;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    background-color: #0891B2;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 25vh; 
+    width: 100vw; 
+}
+
+.header-content {
+    width: 70vw;
+    height: 60vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 15px 15px 25px 15px rgba(34, 60, 80, 0.25);
+}
+
+.header-content__img {
+    width: 25vw;
+    height: 70vh;
+    box-shadow: -15px 15px 25px 15px rgba(34, 60, 80, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content__img img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 70vh;
+}
+
+.header-content__img p {
+    font-size: 3rem;
+    color: white;
+    position: absolute;
+    align-self: flex-end;
+}
+
+.header-content__description {
+    height: 100%;
+    /* height: 70vh; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 25px;
+    padding: 30px;
+}
+
+.header-content__description > p {
+    font-size: 1.5rem;
+}
+
+.header-content__description > h1 {
+    font-size: 3rem;
+}
+
+.header-content__links {
+    display: flex;
+    gap: 20px;
+    align-self: flex-end;
+    justify-self: end;
+    align-items: end;
+    margin-top: auto;
+}
+
+main {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+main > h1 {
+    
+}
+
+.main-content {
+    width: 100vw;
+    padding: 20px 150px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 350px;
+    height: 450px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
